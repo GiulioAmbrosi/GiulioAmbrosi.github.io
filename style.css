@@ -321,7 +321,7 @@ footer{
     section div {
         display: flex;
         align-items: center;
-        padding: 0 15vw;
+        padding: 0 20vw;
     }
 
     section p {
@@ -330,26 +330,14 @@ footer{
         font-size: 0.9em;
     }
 
-    #inizio img {
-        width: 30%;
+    div img {
+        width: 40%;
     }
 
     #universita p {
         order: 2;
     }
 
-    #universita img {
-        width: 22vw;
-        order: 1;
-    }
-
-    #sport img {
-        width: 20vw;
-    }
-
-    #servizi img {
-        width: 40%;
-    }
     #call-to-action {
         padding: 50px 0;
         text-align: center;
@@ -358,7 +346,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        width: 143.2%;
+        width: 28.5vw;
         margin: 0;
     }
     .contacts{
