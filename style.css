@@ -272,6 +272,23 @@ footer{
     padding: 10px 0;
 }
 
+/*scroll effect*/
+@media (prefers-reduced-motion: no-preference){
+    section > div,
+    h1,
+    img,
+    svg,
+    p{
+        animation: fade-in linear forwards;
+        animation-timeline: view();
+        animation-range: 10px 500px;
+    }
+    @keyframes fade-in {
+        from{scale: .4; opacity: 0;}
+        to {scale: 1; opacity: 1;}
+    }
+}
+
 /*code for big screens*/
 @media (min-width: 768px) {
     .top-name img {
